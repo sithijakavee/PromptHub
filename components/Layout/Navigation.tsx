@@ -22,10 +22,10 @@ const navItems = [
     title: "Contact Us",
     href: "/contact",
   },
-  {
-    title: "Policy",
-    href: "/policy",
-  },
+  // {
+  //   title: "Policy",
+  //   href: "/policy",
+  // },
 ];
 
 const Navigation = ({ activeItem }: Props) => {
