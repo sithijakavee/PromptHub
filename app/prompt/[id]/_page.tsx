@@ -77,7 +77,7 @@ const PromptDetailsPage = ({
       ) : (
         <div>
           <div className="shop-banner">
-            <Header activeItem={2} user={user} isSellerExist={isSellerExist} />
+            <Header activeItem={1} user={user} isSellerExist={isSellerExist} />
             <ShopBanner title={prompt?.name!} />
           </div>
           <div>
