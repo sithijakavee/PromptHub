@@ -8,9 +8,9 @@
 - [🚀 Features](#-features)
 - [🛠 Tech Stack](#-tech-stack)
 - [📥 Installation](#-installation)
-- [📖 Usage](#-usage)
-- [📸 Screenshots](#-screenshots)
 - [⚙️ Configuration](#️-configuration)
+- [📖 Usage](#-usage)
+- [📸 Snapshots](#-snapshots)
 - [📜 License](#-license)
 
 ## ✨ Introduction
@@ -61,24 +61,6 @@ To set up PROMPTHUB locally:
    ```
    Access it at `http://localhost:3000`.
 
-## 📖 Usage
-
-Once installed, you can:
-
-- 🔎 **Explore Prompts**: Browse prompt packs by popularity or style.
-- 👤 **Create a Profile**: Register and authenticate through Clerk.
-- 📤 **Upload Prompts**: Upload prompt images managed with Cloudinary.
-- 💳 **Purchase and Sell Prompts**: Buy prompts using Stripe-powered payments.
-
-## 📸 Snapshots
-
-Get a preview of PROMPTHUB in action:
-
-
-   ![Homepage Screenshot](/public/Assets/git2.jpg) 
-   ![Prompt Detail Screenshot](/public/Assets/git3.jpg) -->
-   ![Profile Screenshot](/public/Assets/git2.jpg) 
-
 ## ⚙️ Configuration
 
 Set up your environment variables in `.env.local`:
@@ -100,6 +82,26 @@ CLOUD_API_SECRET=cloudinary_api_secret
 STRIPE_SECRET_KEY=
 STRIPE_PUBLISHABLE_KEY=
 ```
+
+## 📖 Usage
+
+Once installed, you can:
+
+- 🔎 **Explore Prompts**: Browse prompt packs by popularity or style.
+- 👤 **Create a Profile**: Register and authenticate through Clerk.
+- 📤 **Upload Prompts**: Upload prompt images managed with Cloudinary.
+- 💳 **Purchase and Sell Prompts**: Buy prompts using Stripe-powered payments.
+
+## 📸 Snapshots
+
+Get a preview of PROMPTHUB in action:
+
+
+   ![Homepage Screenshot](/public/Assets/git2.jpg) 
+   ![Prompt Detail Screenshot](/public/Assets/git3.jpg)
+   ![Profile Screenshot](/public/Assets/git2.jpg) 
+
+
 
 ## 📜 License
 
