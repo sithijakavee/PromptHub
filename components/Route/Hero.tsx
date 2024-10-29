@@ -3,24 +3,25 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import line from "@/public/Assets/line.png";
 import MarQuee from "react-fast-marquee";
+// import img1 from "@/public/Assets/hero/1.jpg";
 
 type Props = {};
 
 const rowOneImages = [
   {
-    url: "/Assets/hero/1.jfif",
+    url: "/Assets/hero/1.jpg",
   },
   {
-    url: "/Assets/hero/2.jfif",
+    url: "/Assets/hero/2.jpg",
   },
   {
-    url: "/Assets/hero/3.jfif",
+    url: "/Assets/hero/3.jpg",
   },
   {
-    url: "/Assets/hero/4.jfif",
+    url: "/Assets/hero/4.jpg",
   },
   {
-    url: "/Assets/hero/5.jfif",
+    url: "/Assets/hero/5.jpg",
   },
 
   
@@ -28,19 +29,19 @@ const rowOneImages = [
 
 const rowTwoImages = [
   {
-    url: "/Assets/hero/6.jfif",
+    url: "/Assets/hero/6.jpg",
   },
   {
-    url: "/Assets/hero/7.jfif",
+    url: "/Assets/hero/7.jpg",
   },
   {
-    url: "/Assets/hero/8.jfif",
+    url: "/Assets/hero/8.jpg",
   },
   {
-    url: "/Assets/hero/9.jfif",
+    url: "/Assets/hero/9.jpg",
   },
   {
-    url: "/Assets/hero/10.jfif",
+    url: "/Assets/hero/10.jpg",
   },
 ];
 
