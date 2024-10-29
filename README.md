@@ -1,61 +1,109 @@
-## 📋 Tutorial
+![PROMPTHUB Logo](/public/Assets/header.jpg)
 
-This GitHub repository hosts the code associated with a comprehensive tutorial featured on our YouTube channel, <a href="https://www.youtube.com/@BecodemyOfficial" target="_blank"><b>Becodemy</b></a>. 
+# 🌌 PROMPTHUB
 
-For those who find visual learning more effective, this serves as an ideal reference. Follow our tutorial to acquire a step-by-step understanding of constructing projects like these in a beginner-friendly approach!
-<a href="https://www.youtube.com/watch?v=mzbOqy5DWzE&t=216s" target="_blank">Link</a>
+## 📋 Table of Contents
 
-## 🤖 Introduction
+- [✨ Introduction](#-introduction)
+- [🚀 Features](#-features)
+- [🛠 Tech Stack](#-tech-stack)
+- [📥 Installation](#-installation)
+- [📖 Usage](#-usage)
+- [📸 Screenshots](#-screenshots)
+- [⚙️ Configuration](#️-configuration)
+- [📜 License](#-license)
 
-Welcome to our AI Prompt Selling Marketplace, a cutting-edge project. Dive into the trendiest topic on the internet – Artificial Intelligence – as we guide you through building your own AI Prompt Selling Marketplace.
+## ✨ Introduction
 
-What makes this project even more exciting? It's fully completed and ready for deployment, allowing you to kickstart your AI startup effortlessly. Explore the added convenience of a separate Admin Dashboard, empowering you to take control of the main website seamlessly. Get ready to embark on your AI journey with this comprehensive and innovative project.
+**PROMPTHUB** is a dynamic marketplace for AI-generated image prompts, empowering users to buy and sell prompts crafted for AI art. Creators can monetize their unique prompts, while buyers discover top-tier prompts that fuel their creative endeavors. 🌟
 
-## ⚙️ Tech Stack
+## 🚀 Features
 
-- Next.js
-- NextUI
-- TailwindCSS
-- Clerk
-- Prisma
-- TypeScript
+- 🏪 **Prompt Marketplace**: Buy and sell unique AI prompts with ease.
+- 🔒 **Secure Authentication**: Clerk-powered secure user login.
+- 🌐 **Media Hosting**: Prompt images managed with [Cloudinary](https://cloudinary.com) for fast, reliable delivery.
+- 📱 **Responsive Design**: A seamless experience across all devices.
+- 💸 **Secure Payments**: Process transactions with confidence using [Stripe](https://stripe.com).
+- 🖼 **User Profiles**: Showcase your prompts and track purchase history.
+- 🔍 **Search & Filter**: Easily locate prompts by style, tags, and popularity.
+
+## 🛠 Tech Stack
+
+PROMPTHUB leverages a modern and robust tech stack:
+
+- **Frontend**: [Next.js](https://nextjs.org/), [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) for responsive, fast design
+- **Authentication**: [Clerk](https://clerk.dev)
+- **Payments**: [Stripe](https://stripe.com) for secure transaction processing
+- **Media Storage**: [Cloudinary](https://cloudinary.com) for image hosting and delivery
+- **State Management**: Context API and custom hooks as needed
+
+## 📥 Installation
+
+To set up PROMPTHUB locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/sithijakavee/PromptHub.git
+   cd prompthub
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment variables**: Add your Clerk, Stripe, and Cloudinary credentials in `.env.local`.
+
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+   Access it at `http://localhost:3000`.
+
+## 📖 Usage
+
+Once installed, you can:
+
+- 🔎 **Explore Prompts**: Browse prompt packs by popularity or style.
+- 👤 **Create a Profile**: Register and authenticate through Clerk.
+- 📤 **Upload Prompts**: Upload prompt images managed with Cloudinary.
+- 💳 **Purchase and Sell Prompts**: Buy prompts using Stripe-powered payments.
+
+## 📸 Snapshots
+
+Get a preview of PROMPTHUB in action:
 
 
-## 🤸 Getting Started
+   ![Homepage Screenshot](/public/Assets/git2.jpg) 
+   ![Prompt Detail Screenshot](/public/Assets/git3.jpg) -->
+   ![Profile Screenshot](/public/Assets/git2.jpg) 
 
-Follow these steps to set up the project locally on your machine.
+## ⚙️ Configuration
 
-**Prerequisites**
+Set up your environment variables in `.env.local`:
 
-Make sure you have the following installed on your machine:
+```plaintext
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=clerk_publishable_key
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
-**Cloning the Repository**
+DATABASE_URL=your_database_uri
 
-```bash
-git clone https://github.com/shahriarsajeeb/AI-Prompt-Selling-MarketPlace.git
+CLOUD_NAME=cloudinary_cloud_name
+CLOUD_API_KEY=cloudinary_api_key
+CLOUD_API_SECRET=cloudinary_api_secret
+
+STRIPE_SECRET_KEY=
+STRIPE_PUBLISHABLE_KEY=
 ```
 
-**Installation**
+## 📜 License
 
-Install the project dependencies using npm:
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
 
-```bash
-npm install
-```
+---
 
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
-## 🚨 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
