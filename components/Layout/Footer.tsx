@@ -8,7 +8,7 @@ type Props = {};
 const Footer = (props: Props) => {
   return (
     <div className="mt-8">
-      <div className="w-full mb-5 flex justify-between items-center">
+      <div className="w-full mb-5 flex justify-between items-center flex-col md:flex-row">
         <div>
           <Link href={"/"}>
             <h1 className="font-Inter text-3xl cursor-pointer">

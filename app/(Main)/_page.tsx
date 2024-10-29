@@ -54,18 +54,18 @@ const RoutePage = ({ user, isSellerExist }: Props) => {
 
   return (
     <>
-      <div>
+      <div className="!overflow-x-hidden">
         <div className="banner">
           <Header activeItem={0} user={user} isSellerExist={isSellerExist} />
           <Hero />
         </div>
-        <Image
+        {/* <Image
           src={"https://pixner.net/aikeu/assets/images/footer/shape-two.png"}
           width={120}
           height={120}
           alt=""
-          className="absolute right-[-30px]"
-        />
+          className="absolute right-[-30px] overflow-hidden"
+        /> */}
         <br />
         <div className="w-[95%] md:w-[90%] xl:w-[80%] 2xl:w-[75%] m-auto">
           <About />

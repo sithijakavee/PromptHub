@@ -22,8 +22,6 @@ body {
 .banner {
   min-height: 100vh;
   /* background-image: url("https://pixner.net/aikeu/assets/images/banner/banner-one-bg.png"); */
-  background-position: center center;
-  background-size: cover;
   
   background: rgb(63,94,251);
 background: -moz-radial-gradient(circle, rgba(63,94,251,0.8323704481792717) 0%, rgba(3,0,21,1) 52%);
@@ -40,8 +38,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endCo
       min-height: unset!important;
      }
 }
-.banner::before {
+/* .banner::before {
   position: absolute;
+  overflow-x: hidden  !important;
   top: 0px;
   left: -150px;
   content: "";
@@ -51,10 +50,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endCo
   border-radius: 50%;
   background: rgba(75, 255, 223, 0.24);
   filter: blur(227px);
-  /* z-index: -1; */
 }
 .banner::after {
   position: absolute;
+  overflow-x: hidden  !important;
+
   top: 50%;
   transform: translateY(-50%);
   right: -100px;
@@ -65,8 +65,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endCo
   border-radius: 50%;
   background: rgba(75, 169, 255, 0.44);
   filter: blur(272px);
-  /* z-index: -1; */
-}
+} */
 .shop-banner {
   background-image: url("https://pixner.net/aikeu/assets/images/banner/cmn-bg.png");
   background-position: center center;
