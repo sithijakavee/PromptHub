@@ -80,3 +80,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endCo
 .sellers-banner {
   background: linear-gradient(132deg, #ff008b 0%, #278ea5 100%);
 }
+
+.imgBg{
+  background-image: url("/Assets/authbg.jpg");
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
