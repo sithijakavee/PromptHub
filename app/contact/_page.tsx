@@ -1,5 +1,6 @@
 "use client";
 
+import ContactDetails from "@/components/contact/ContactDetails";
 import Footer from "@/components/Layout/Footer";
 import Header from "@/components/Layout/Header";
 import ShopBanner from "@/components/Shop/ShopBanner";
@@ -21,6 +22,12 @@ const AboutRouter = ({
         <Header activeItem={3} user={user} isSellerExist={isSellerExist} />
         <ShopBanner title="Contact Us" />
       </div>
+
+      <div>
+        <ContactDetails/>
+      </div>
+
+      <Footer />
       
     </>
   );

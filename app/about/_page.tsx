@@ -16,7 +16,7 @@ const ContactRouter = ({
   return (
     <>
       <div className="shop-banner">
-        <Header activeItem={1} user={user} isSellerExist={isSellerExist} />
+        <Header activeItem={2} user={user} isSellerExist={isSellerExist} />
         <ShopBanner title="About Us" />
       </div>
       <div>

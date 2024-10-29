@@ -65,7 +65,7 @@ const MarketPlaceRouter = ({
   return (
     <>
       <div className="shop-banner">
-        <Header activeItem={2} user={user} isSellerExist={isSellerExist} />
+        <Header activeItem={1} user={user} isSellerExist={isSellerExist} />
         <ShopBanner title="Our Shop" />
       </div>
       <div>
